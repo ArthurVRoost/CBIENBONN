@@ -1,4 +1,75 @@
 @charset "UTF-8";
+.imgH {
+  background-image: url("../assets/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: 10% 4%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.imgH::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.313);
+  z-index: 0;
+}
+
+nav {
+  padding: 20px;
+  height: 80px;
+}
+nav .navBtn {
+  margin-left: 18vw;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+nav .navbar-nav {
+  margin-left: 20vw;
+}
+nav .navbar-brand {
+  font-size: 30px;
+}
+
+.headerDivP {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  margin-left: 50px;
+}
+.headerDivP .headerDiv1H1 {
+  color: #CDA45C;
+}
+.headerDivP .headerDiv1H3 {
+  font-weight: 100;
+}
+.headerDivP .headerDiv2 {
+  margin-left: 30vw;
+  font-size: 40px;
+}
+.headerDivP .headerBtn {
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.headerDivP .headerBtn2 {
+  border-radius: 25px;
+  margin-left: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.headerDivP .HeaderBtn3 {
+  background: #CDA45C;
+  border-radius: 50%;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
