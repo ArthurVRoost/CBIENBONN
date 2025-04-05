@@ -37,6 +37,26 @@ nav
     position: relative
     z-index: 1
     margin-left: 50px
+    .headerDiv2
+        z-index: 1
+        position: relative
+        .youtube-video
+            display: none
+            width: 100%
+            max-width: 560px
+            height: 315px
+        #toggle-video
+            display: none
+        .video-button
+            display: inline-block
+            padding: 10px 20px
+            background-color: $yellow
+            color: white
+            border-radius: 50%
+            cursor: pointer
+            font-weight: bold
+        #toggle-video:checked ~ .youtube-video
+            display: block
     .navText
         color: $yellow
         
@@ -57,7 +77,15 @@ nav
     .HeaderBtn3
         background: $yellow 
         border-radius: 50%
+        z-index: 1
+        position: relative
+    .fa-play
+        z-index: 1
+        position: relative
+    .modal
+        z-index: 1
         
+    
 
        
     

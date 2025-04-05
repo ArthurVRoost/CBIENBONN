@@ -44,6 +44,31 @@ nav .navbar-brand {
   z-index: 1;
   margin-left: 50px;
 }
+.headerDivP .headerDiv2 {
+  z-index: 1;
+  position: relative;
+}
+.headerDivP .headerDiv2 .youtube-video {
+  display: none;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}
+.headerDivP .headerDiv2 #toggle-video {
+  display: none;
+}
+.headerDivP .headerDiv2 .video-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #CDA45C;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+}
+.headerDivP .headerDiv2 #toggle-video:checked ~ .youtube-video {
+  display: block;
+}
 .headerDivP .navText {
   color: #CDA45C;
 }
@@ -68,6 +93,15 @@ nav .navbar-brand {
 .headerDivP .HeaderBtn3 {
   background: #CDA45C;
   border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+.headerDivP .fa-play {
+  z-index: 1;
+  position: relative;
+}
+.headerDivP .modal {
+  z-index: 1;
 }
 
 /*!
