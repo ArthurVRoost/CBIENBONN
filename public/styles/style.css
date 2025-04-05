@@ -158,6 +158,53 @@ nav .navbar-brand {
   margin-left: 50px;
 }
 
+.section3 {
+  background-color: #0D0B09;
+}
+.section3 .seciton3DivP {
+  margin-left: 3%;
+  padding-bottom: 5vh;
+  margin-right: 3%;
+}
+.section3 .seciton3DivP .seciton3Div1 {
+  padding-top: 5vh;
+}
+.section3 .seciton3DivP .seciton3Div1 .seciton3Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+.section3 .seciton3DivP .seciton3Div1 .seciton3Div1H2 {
+  color: #CDA45C;
+}
+.section3 .seciton3DivP .seciton3Div2 {
+  display: flex;
+  padding-top: 5vh;
+  justify-content: space-around;
+  gap: 10px;
+}
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D {
+  background-color: #1A1814;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D .seciton3Div2DH2 {
+  color: #CDA45C;
+  font-size: 23px;
+  padding-bottom: 2vh;
+}
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D .seciton3Div2DH3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 2vh;
+}
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D .seciton3Div2DP {
+  color: rgba(218, 218, 211, 0.66);
+  font-size: 15px;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
