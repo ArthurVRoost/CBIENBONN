@@ -1,5 +1,8 @@
 @use './_mixins' as *
 @use './_variables' as *
+body
+    overflow-x: hidden
+    
 .imgH
     background-image: url("../assets/img/hero-bg.jpg")
     @include bg-header
@@ -171,8 +174,55 @@ nav
                     
 
 
+.imgH3
+    background-image: url("../assets/img/events-bg.jpg")
+    @include section5
+    background-attachment: fixed
+    background-repeat: no-repeat
     
+    &::before
+        content: ''
+        position: absolute
+        top: 234vh
+        left: 0
+        width: 100%
+        height: 99%
+        background-color: rgba(0, 0, 0, 0.504)
+        z-index: 0
+.section5Div1
+    margin-left: 3%
+    position: relative
+    z-index: 1
+    .section5Div1H4
+        color: white
+        font-weight: 100
+        font-size: 20px
+        padding-top: 5vh
+    .section5Div1H2
+        padding-bottom: 5vh
+        
+        
+    
+    .section5Div1H2
+        color: $yellow
+.carousel
+    display: flex
 
-       
+.carousel-indicators
+    position: absolute
+    right: 50%
+    top: 110%
+.section5Div2
+    position: absolute
+    right: 3%
+    top: 3vh
+    .section5Div2H3
+        color: $yellow
+    .section5Div2PI
+        font-style: italic
+        font-size: 15px
+    .section5Div2P
+        font-size: 15px
+
     
         

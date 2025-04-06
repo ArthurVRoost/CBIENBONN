@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
 .imgH {
   background-image: url("../assets/img/hero-bg.jpg");
   background-size: cover;
@@ -202,6 +206,69 @@ nav .navbar-brand {
 }
 .section3 .seciton3DivP .seciton3Div2 .seciton3Div2D .seciton3Div2DP {
   color: rgba(218, 218, 211, 0.66);
+  font-size: 15px;
+}
+
+.imgH3 {
+  background-image: url("../assets/img/events-bg.jpg");
+  background-size: cover;
+  background-position: 10% 4%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.imgH3::before {
+  content: "";
+  position: absolute;
+  top: 234vh;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.504);
+  z-index: 0;
+}
+
+.section5Div1 {
+  margin-left: 3%;
+  position: relative;
+  z-index: 1;
+}
+.section5Div1 .section5Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  padding-top: 5vh;
+}
+.section5Div1 .section5Div1H2 {
+  padding-bottom: 5vh;
+}
+.section5Div1 .section5Div1H2 {
+  color: #CDA45C;
+}
+
+.carousel {
+  display: flex;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 50%;
+  top: 110%;
+}
+
+.section5Div2 {
+  position: absolute;
+  right: 3%;
+  top: 3vh;
+}
+.section5Div2 .section5Div2H3 {
+  color: #CDA45C;
+}
+.section5Div2 .section5Div2PI {
+  font-style: italic;
+  font-size: 15px;
+}
+.section5Div2 .section5Div2P {
   font-size: 15px;
 }
 
