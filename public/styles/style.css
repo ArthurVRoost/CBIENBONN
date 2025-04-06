@@ -324,6 +324,31 @@ nav .navbar-brand {
   text-align: center;
 }
 
+.section7DivP {
+  background-color: #0D0B09;
+}
+.section7DivP .section7Div1 {
+  padding-top: 5vh;
+  margin-left: 3%;
+}
+.section7DivP .section7Div1 .section7Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+}
+.section7DivP .section7Div1 .section7Div1H2 {
+  color: #CDA45C;
+}
+.section7DivP .section7DivImg {
+  padding-top: 5vh;
+}
+.section7DivP .section7DivImg .section7Div2 {
+  display: flex;
+}
+.section7DivP .section7DivImg .section7Div2 .section7Img1 {
+  width: 25%;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
