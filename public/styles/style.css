@@ -349,6 +349,33 @@ nav .navbar-brand {
   width: 25%;
 }
 
+.section8DivP {
+  background-color: #0D0B09;
+}
+.section8DivP .section8Div1 {
+  padding-top: 15vh;
+  margin-left: 3%;
+}
+.section8DivP .section8Div1 .section8Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+}
+.section8DivP .section8Div1 .section8Div1H2 {
+  color: #CDA45C;
+}
+.section8DivP .section8Div2 {
+  padding-top: 5vh;
+  display: flex;
+  margin-left: 3%;
+  padding-bottom: 15vh;
+  gap: 10px;
+}
+.section8DivP .section8Div2 .section8Img {
+  width: 450px;
+  height: 450px;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
