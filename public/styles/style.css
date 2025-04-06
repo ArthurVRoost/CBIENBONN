@@ -176,7 +176,7 @@ nav .navbar-brand {
 .section3 .seciton3DivP .seciton3Div1 .seciton3Div1H4 {
   color: white;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
 }
 .section3 .seciton3DivP .seciton3Div1 .seciton3Div1H2 {
   color: #CDA45C;
@@ -236,7 +236,7 @@ nav .navbar-brand {
 .section5Div1 .section5Div1H4 {
   color: white;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 5vh;
 }
 .section5Div1 .section5Div1H2 {
@@ -270,6 +270,58 @@ nav .navbar-brand {
 }
 .section5Div2 .section5Div2P {
   font-size: 15px;
+}
+
+.section6DivP {
+  background-color: #0D0B09;
+}
+.section6DivP .section6Div1 {
+  padding-top: 5vh;
+  margin-left: 3%;
+}
+.section6DivP .section6Div1 .section6Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+}
+.section6DivP .section6Div1 .section6Div1H2 {
+  color: #CDA45C;
+}
+.section6DivP form {
+  background-color: #0D0B09;
+  padding: 20px;
+}
+.section6DivP form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0.5px solid #CDA45C;
+  background: transparent;
+  color: #CDA45C;
+}
+.section6DivP form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0.5px solid #CDA45C;
+  background: transparent;
+  color: #CDA45C;
+}
+.section6DivP form .row {
+  display: flex;
+  gap: 10px;
+}
+.section6DivP form .row input {
+  flex: 1;
+}
+.section6DivP form button {
+  background-color: #CDA45C;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  display: flex;
+  text-align: center;
 }
 
 /*!
