@@ -311,60 +311,69 @@
 
     <!-- SECTION 9 -->
     <section class="seciton9">
-        <div>
-            <div>
-                <h4>CONTACT&mdash;&mdash;&mdash;&mdash;&mdash;</h4>
-                <h2>Contact Us</h2>
+        <div class="section9DivP">
+            <div class="section9Div1">
+                <h4 class="section9Div1H4 ">CONTACT&mdash;&mdash;&mdash;&mdash;&mdash;</h4>
+                <h2 class="section9Div1H2">Contact Us</h2>
             </div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.693738058749!2d4.3386450764623365!3d50.85535537167224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1743768652601!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="section9Div2">
+                <iframe width="100%" height="300px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.693738058749!2d4.3386450764623365!3d50.85535537167224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1743768652601!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+            <div class="section9Div3" width="100%">
+                <div class="section9Div4 col-4">
+                    <div class="section9Div5" >
+                        <i class="fa-solid fa-location-dot contact"></i>
+                        <div class="divContact">
+                            <h4 class="divContactH4">Location:</h4>
+                            <p class="divContactP">A108 Adam Street, New York, NY 535022</p>
                         </div>
                     </div>
 
-                    <div>
-                        <i class="fa-solid fa-clock"></i>
-                        <div>
-                            <h4>Open Hours:</h4>
-                            <p>Monday-Saturday:</p>
-                            <p>11:00AM - 23:00PM</p>
+                    <div class="section9Div5">
+                        <i class="fa-solid fa-clock contact"></i>
+                        <div class="divContact">
+                            <h4 class="divContactH4">Open Hours:</h4>
+                            <p class="divContactP">Monday-Saturday:</p>
+                            <p class="divContactP">11:00AM - 23:00PM</p>
                         </div>
                     </div>
 
-                    <div>
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h4>Email:</h4>
-                            <p>info@example.com</p>
+                    <div class="section9Div5">
+                        <i class="fa-solid fa-envelope contact"></i>
+                        <div class="divContact">
+                            <h4 class="divContactH4">Email:</h4>
+                            <p class="divContactP">info@example.com</p>
                         </div>
                     </div>
 
-                    <div>
-                        <i class="fa-solid fa-mobile"></i>
-                        <div>
-                            <h4>Call:</h4>
-                            <p>+1&nbsp;5589&nbsp;55488&nbsp;55s</p>
-                        </div>
+                    <div class="section9Div5">
+                        <i class="fa-solid fa-mobile contact"></i>
+                        <div class="divContact">
+                            <h4 class="divContactH4">Call:</h4>
+                            <p class="divContactP">+1&nbsp;5589&nbsp;55488&nbsp;55s</p>
+                        </div class="divContact">
                     </div>
                     
                 </div>
 
-                <div class="form-container">
+                <div class="contact-form col-8" width="100%">
                     <form action="#" method="post">
-                        <div class="row">
-                            <input type="text" name="name" placeholder="Your Name" required>
-                            <input type="email" name="email" placeholder="Your Email" required>
+                        <div class="form-row">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
-                        <input type="text" name="subject" placeholder="Subject" required>
-                        <textarea name="message" placeholder="Message" rows="4" required></textarea>
-                        <button type="submit">Send Message</button>
+                        
+                        <div class="form-field">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        
+                        <div class="form-field">
+                            <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-button">
+                            <button class="btnContact" type="submit">Send Message</button>
+                        </div>
                     </form>
                 </div>
             

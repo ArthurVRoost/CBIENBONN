@@ -376,6 +376,101 @@ nav .navbar-brand {
   height: 450px;
 }
 
+.section9DivP {
+  background-color: #0D0B09;
+}
+.section9DivP .section9Div1 {
+  margin-left: 3%;
+}
+.section9DivP .section9Div1 .section9Div1H4 {
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+}
+.section9DivP .section9Div1 .section9Div1H2 {
+  color: #CDA45C;
+}
+.section9DivP .section9Div2 {
+  width: 100%;
+}
+.section9DivP .section9Div3 {
+  display: flex;
+  padding-top: 5vh;
+}
+.section9DivP .section9Div3 .section9Div4 {
+  margin-left: 3%;
+  flex-direction: column;
+}
+.section9DivP .section9Div3 .section9Div4 .section9Div5 {
+  display: flex;
+  align-items: center;
+}
+.section9DivP .section9Div3 .section9Div4 .section9Div5 .contact {
+  color: white;
+  border-radius: 50%;
+  padding: 7px;
+  background-color: #CDA45C;
+}
+.section9DivP .section9Div3 .section9Div4 .section9Div5 .divContact {
+  color: white;
+  padding-left: 1vw;
+}
+.section9DivP .section9Div3 .section9Div4 .section9Div5 .divContact .divContactH4 {
+  font-size: 20px;
+}
+.section9DivP .section9Div3 .section9Div4 .section9Div5 .divContact .divContactP {
+  font-size: 15px;
+  color: rgb(123, 121, 121);
+}
+.section9DivP .section9Div3 .contact-form {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.section9DivP .section9Div3 .contact-form .form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 800px;
+}
+.section9DivP .section9Div3 .contact-form .form-row input {
+  flex: 1;
+}
+.section9DivP .section9Div3 .contact-form .form-field {
+  margin-bottom: 15px;
+}
+.section9DivP .section9Div3 .contact-form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0D0B09;
+  border: 1px solid #CDA45C;
+  color: white;
+  outline: none;
+}
+.section9DivP .section9Div3 .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0D0B09;
+  border: 1px solid #CDA45C;
+  color: white;
+  outline: none;
+  min-height: 200px;
+  resize: vertical;
+}
+.section9DivP .section9Div3 .contact-form .form-button {
+  text-align: center;
+}
+.section9DivP .section9Div3 .contact-form .form-button .btnContact {
+  background-color: #CDA45C;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 100;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
