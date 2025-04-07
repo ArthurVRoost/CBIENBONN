@@ -208,6 +208,12 @@ nav .navbar-brand {
   color: rgba(218, 218, 211, 0.66);
   font-size: 15px;
 }
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D:hover {
+  background-color: #CDA45C;
+}
+.section3 .seciton3DivP .seciton3Div2 .seciton3Div2D:hover h2 {
+  color: white;
+}
 
 .imgH3 {
   background-image: url("../assets/img/events-bg.jpg");
