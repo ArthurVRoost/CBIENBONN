@@ -210,6 +210,7 @@ nav .navbar-brand {
 }
 .section3 .seciton3DivP .seciton3Div2 .seciton3Div2D:hover {
   background-color: #CDA45C;
+  padding-top: 20px;
 }
 .section3 .seciton3DivP .seciton3Div2 .seciton3Div2D:hover h2 {
   color: white;
@@ -301,7 +302,7 @@ nav .navbar-brand {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 0.5px solid #CDA45C;
+  border: 0.5px solid rgb(104, 104, 100);
   background: transparent;
   color: #CDA45C;
 }
@@ -309,7 +310,7 @@ nav .navbar-brand {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 0.5px solid #CDA45C;
+  border: 0.5px solid rgb(104, 104, 100);
   background: transparent;
   color: #CDA45C;
 }
@@ -353,6 +354,10 @@ nav .navbar-brand {
 }
 .section7DivP .section7DivImg .section7Div2 .section7Img1 {
   width: 25%;
+  transition: 0.3s ease;
+}
+.section7DivP .section7DivImg .section7Div2 .section7Img1:hover {
+  transform: scale(1.02);
 }
 
 .section8DivP {
@@ -450,7 +455,7 @@ nav .navbar-brand {
   padding: 10px;
   box-sizing: border-box;
   background-color: #0D0B09;
-  border: 1px solid #CDA45C;
+  border: 1px solid rgb(104, 104, 100);
   color: white;
   outline: none;
 }
@@ -459,7 +464,7 @@ nav .navbar-brand {
   padding: 10px;
   box-sizing: border-box;
   background-color: #0D0B09;
-  border: 1px solid #CDA45C;
+  border: 1px solid rgb(104, 104, 100);
   color: white;
   outline: none;
   min-height: 200px;
