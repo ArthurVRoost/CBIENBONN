@@ -471,6 +471,104 @@ nav .navbar-brand {
   font-weight: 100;
 }
 
+.hrF {
+  margin: 0;
+  padding: 0;
+  color: #1A1814;
+}
+
+footer {
+  background-color: #0D0B09;
+}
+footer .section10DivP {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-around;
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+footer .section10DivP .section10Div1H4 {
+  font-size: 23px;
+}
+footer .section10DivP .section10Div1P {
+  font-weight: 100;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+}
+footer .section10DivP .fa-brands {
+  color: white;
+  background-color: rgba(79, 77, 77, 0.338);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+}
+footer .section10DivP .section10Div2H4 {
+  font-size: 23px;
+}
+footer .section10DivP .section10Div2P {
+  font-weight: 100;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+}
+footer .section10DivP .section10Div3H4 {
+  font-size: 23px;
+}
+footer .section10DivP .section10Div3P {
+  font-weight: 100;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+}
+footer .section10DivP .section10Div4H4 {
+  font-size: 23px;
+}
+footer .section10DivP .section10Div4P {
+  font-weight: 100;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+}
+footer .section10DivP .subscription-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .section10DivP .subscription-form {
+  display: flex;
+  align-items: center;
+  background-color: #1A1814;
+  border-radius: 25px;
+  padding: 5px;
+  margin-top: 3vh;
+}
+footer .section10DivP .subscription-form input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #CDA45C;
+  outline: none;
+}
+footer .section10DivP .subscription-form button {
+  background-color: #CDA45C;
+  border-radius: 15px;
+  color: white;
+  outline: none;
+  padding: 10px 30px;
+}
+footer .section10DivP .subscription-form button:hover {
+  background-color: #CDA45C;
+}
+footer .section10DivP .spanF {
+  color: #CDA45C;
+  padding-left: 1vw;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
