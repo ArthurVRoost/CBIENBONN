@@ -314,14 +314,23 @@ nav .navbar-brand {
   gap: 30px;
   padding-bottom: 5vh;
 }
+.section4 .section4Div2 a {
+  text-decoration: none;
+}
 .section4 .section4Div2 .section4Div2P {
   text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+.section4 #all, .section4 #starters-filter, .section4 #salads-filter, .section4 #specialty-filter {
+  display: none;
 }
 .section4 .section4Div3 {
   flex-wrap: wrap;
   display: flex;
   color: white;
   margin-left: 3%;
+  margin-right: 3%;
 }
 .section4 .section4Div3 .carte {
   display: flex;
@@ -330,11 +339,51 @@ nav .navbar-brand {
 .section4 .section4Div3 .carte .section4Img {
   width: 60px;
   height: 60px;
-  border: 2px solid grey;
+  border: 3px solid grey;
   border-radius: 50%;
+}
+.section4 .section4Div3 .carte .section4Text {
+  padding-left: 20px;
+}
+.section4 .section4Div3 .carte .section4Prix {
+  padding-left: 2vw;
+  color: #CDA45C;
 }
 .section4 .section4Div4 {
   padding-bottom: 5vh;
+}
+
+#all:target ~ .section4Div3 .carte,
+.section4DivP:not(:has(#starters-filter:target, #salads-filter:target, #specialty-filter:target)) .section4Div3 .carte {
+  opacity: 1;
+  display: flex;
+}
+
+#starters-filter:target ~ .section4Div3 .carte {
+  opacity: 0;
+  display: none;
+}
+#starters-filter:target ~ .section4Div3 .carte:has(#starters) {
+  opacity: 1;
+  display: flex;
+}
+
+#salads-filter:target ~ .section4Div3 .carte {
+  opacity: 0;
+  display: none;
+}
+#salads-filter:target ~ .section4Div3 .carte:has(#salads) {
+  opacity: 1;
+  display: flex;
+}
+
+#specialty-filter:target ~ .section4Div3 .carte {
+  opacity: 0;
+  display: none;
+}
+#specialty-filter:target ~ .section4Div3 .carte:has(#specialty) {
+  opacity: 1;
+  display: flex;
 }
 
 .imgH3 {

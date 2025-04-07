@@ -256,43 +256,113 @@ nav
     background-color: $gris
     height: auto
     
-    
-    
     .section4Div1H4
         color: white
         font-weight: 100
         font-size: 18px
         padding-top: 5vh
         margin-left: 3%
+    
     .section4Div1H2
         padding-bottom: 5vh
         color: $yellow
         margin-left: 3%
+    
     .section4Div2
         color: white
         display: flex
         justify-content: center
         gap: 30px
         padding-bottom: 5vh
+        
+        a
+            text-decoration: none
+            
         .section4Div2P
             text-decoration: none
+            color: white
+            transition: color 0.3s ease
+            
+            
+    
+    // Éléments invisibles pour le filtrage
+    #all, #starters-filter, #salads-filter, #specialty-filter
+        display: none
+            
     .section4Div3
         flex-wrap: wrap
         display: flex
         color: white
         margin-left: 3%
+        margin-right: 3%
         
         .carte
             display: flex
             padding-bottom: 5vh
+            
             .section4Img
                 width: 60px
                 height: 60px
-                border: 2px solid grey
+                border: 3px solid grey
                 border-radius: 50%
-        
+                
+            .section4Text
+                padding-left: 20px
+                
+            .section4Prix
+                padding-left: 2vw
+                color: $yellow
+    
     .section4Div4
         padding-bottom: 5vh
+
+// https://www.youtube.com/watch?v=XdtZWVK3y_Q&ab_channel=DaveGray PRINCIPALE SOURCE POUR CE QUI SUIT 
+
+
+// Etat de base, tout est visible en all, le ~ selectionne ce qui suit a conditions qu'ils soient freres
+#all:target ~ .section4Div3 .carte,
+.section4DivP:not(:has(#starters-filter:target, #salads-filter:target, #specialty-filter:target)) .section4Div3 .carte
+    opacity: 1
+    display: flex
+
+// Pour les 3 suivants on leur explique quoi faire dépendant de l'etat
+// grace au display flex et au col-6 dans l'html il remplit l'espace comme ça et display none important juste pour liberer l'espace
+#starters-filter:target ~ .section4Div3
+    .carte
+        opacity: 0
+        display: none
+    
+    .carte:has(#starters)
+        opacity: 1
+        display: flex
+
+
+#salads-filter:target ~ .section4Div3
+    .carte
+        opacity: 0
+        display: none
+    
+    .carte:has(#salads)
+        opacity: 1
+        display: flex
+
+
+#specialty-filter:target ~ .section4Div3
+    .carte
+        opacity: 0
+        display: none
+    
+    .carte:has(#specialty)
+        opacity: 1
+        display: flex
+
+// Tu définies ce qui s'affiche en appuyant sur 1 des 4 choix et la derniere ligne dit que si t'appuies pas sur un d 3 ça se met en all par default
+#all:target ~ .section4Div2 a[href="#all"] .section4Div2P,
+#starters-filter:target ~ .section4Div2 a[href="#starters-filter"] .section4Div2P,
+#salads-filter:target ~ .section4Div2 a[href="#salads-filter"] .section4Div2P,
+#specialty-filter:target ~ .section4Div2 a[href="#specialty-filter"] .section4Div2P,
+.section4DivP:not(:has(#starters-filter:target, #salads-filter:target, #specialty-filter:target)) .section4Div2 a[href="#all"] .section4Div2P
+    
 
 
 
