@@ -474,7 +474,8 @@ nav .navbar-brand {
 .hrF {
   margin: 0;
   padding: 0;
-  color: #1A1814;
+  color: rgba(49, 48, 48, 0.192);
+  height: 1px;
 }
 
 footer {
@@ -567,6 +568,38 @@ footer .section10DivP .subscription-form button:hover {
 footer .section10DivP .spanF {
   color: #CDA45C;
   padding-left: 1vw;
+}
+
+.hrCP {
+  margin: 0;
+  padding: 0;
+}
+
+.section11 {
+  background-color: #0D0B09;
+}
+.section11 .section11DivP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33vw;
+  margin-left: 35vw;
+}
+.section11 .section11DivP .section11Div1P {
+  margin: 0;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+  color: white;
+  font-weight: 100;
+}
+.section11 .section11DivP .spanCP {
+  font-weight: bold;
+}
+.section11 .section11DivP .fa-arrow-up {
+  color: #CDA45C;
+  border: 1px solid #CDA45C;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 /*!
