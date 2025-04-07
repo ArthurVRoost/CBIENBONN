@@ -172,7 +172,7 @@ nav .navbar-brand {
 .section2DivP .section2Div2 .gauche::before {
   content: "";
   color: #CDA45C;
-  border: 1px solid #CDA45C;
+  border: 2px solid #CDA45C;
   position: absolute;
   left: 70px;
   width: 70px;
@@ -181,7 +181,7 @@ nav .navbar-brand {
 .section2DivP .section2Div2 .droite::before {
   content: "";
   color: #CDA45C;
-  border: 1px solid #CDA45C;
+  border: 2px solid #CDA45C;
   position: absolute;
   left: 462px;
   width: 70px;
@@ -190,7 +190,7 @@ nav .navbar-brand {
 .section2DivP .section2Div2 .gauche::after {
   content: "";
   color: #CDA45C;
-  border: 1px solid #CDA45C;
+  border: 2px solid #CDA45C;
   position: absolute;
   left: 70px;
   height: 70px;
@@ -199,11 +199,11 @@ nav .navbar-brand {
 .section2DivP .section2Div2 .droite::after {
   content: "";
   color: #CDA45C;
-  border: 1px solid #CDA45C;
+  border: 2px solid #CDA45C;
   position: absolute;
-  left: 530px;
+  left: 529px;
   height: 70px;
-  top: 260px;
+  top: 264px;
 }
 
 .section3 {
@@ -425,6 +425,90 @@ nav .navbar-brand {
   margin-left: 3%;
   padding-bottom: 15vh;
   gap: 10px;
+}
+.section8DivP .section8Div2 .section8Div2Img1 {
+  width: 450px;
+  height: 450px;
+  background: url("../assets/img/chefs/chefs-1.jpg");
+}
+.section8DivP .section8Div2 .section8Div2Img1 .section8Card1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 359px;
+  opacity: 0;
+  color: white;
+}
+.section8DivP .section8Div2 .section8Div2Img1 .section8Card1 .section8CardP {
+  font-style: italic;
+}
+.section8DivP .section8Div2 .section8Div2Img1 .section8Card1 .section8I {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  font-size: 20px;
+}
+.section8DivP .section8Div2 .section8Div2Img1:hover .section8Card1 {
+  opacity: 1;
+  background: linear-gradient(to top, black, transparent);
+}
+.section8DivP .section8Div2 .section8Div2Img2 {
+  width: 450px;
+  height: 450px;
+  background: url("../assets/img/chefs/chefs-2.jpg");
+}
+.section8DivP .section8Div2 .section8Div2Img2 .section8Card2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 359px;
+  opacity: 0;
+  color: white;
+}
+.section8DivP .section8Div2 .section8Div2Img2 .section8Card2 .section8CardP {
+  font-style: italic;
+}
+.section8DivP .section8Div2 .section8Div2Img2 .section8Card2 .section8I {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  font-size: 20px;
+}
+.section8DivP .section8Div2 .section8Div2Img2:hover .section8Card2 {
+  opacity: 1;
+  background: linear-gradient(to top, black, transparent);
+}
+.section8DivP .section8Div2 .section8Div2Img3 {
+  width: 450px;
+  height: 450px;
+  background: url("../assets/img/chefs/chefs-3.jpg");
+}
+.section8DivP .section8Div2 .section8Div2Img3 .section8Card3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 359px;
+  opacity: 0;
+  color: white;
+}
+.section8DivP .section8Div2 .section8Div2Img3 .section8Card3 .section8CardP {
+  font-style: italic;
+}
+.section8DivP .section8Div2 .section8Div2Img3 .section8Card3 .section8I {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  font-size: 20px;
+}
+.section8DivP .section8Div2 .section8Div2Img3:hover .section8Card3 {
+  opacity: 1;
+  background: linear-gradient(to top, black, transparent);
 }
 .section8DivP .section8Div2 .section8Img {
   width: 450px;
