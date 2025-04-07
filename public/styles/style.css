@@ -320,7 +320,6 @@ nav .navbar-brand {
 .section4 .section4Div2 .section4Div2P {
   text-decoration: none;
   color: white;
-  transition: color 0.3s ease;
 }
 .section4 #all, .section4 #starters-filter, .section4 #salads-filter, .section4 #specialty-filter {
   display: none;
@@ -384,6 +383,26 @@ nav .navbar-brand {
 #specialty-filter:target ~ .section4Div3 .carte:has(#specialty) {
   opacity: 1;
   display: flex;
+}
+
+#all:target ~ .section4Div2 a[href="#all"] .section4Div2P,
+#starters-filter:target ~ .section4Div2 a[href="#starters-filter"] .section4Div2P,
+#salads-filter:target ~ .section4Div2 a[href="#salads-filter"] .section4Div2P,
+#specialty-filter:target ~ .section4Div2 a[href="#specialty-filter"] .section4Div2P,
+.section4DivP:not(:has(#starters-filter:target, #salads-filter:target, #specialty-filter:target)) .section4Div2 a[href="#all"] .section4Div2P {
+  color: #CDA45C;
+}
+
+.section4DivP:not(:has(#all:target, #salads-filter:target, #specialty-filter:target)) .section4Div2 a[href="#starters-filter"] .section4Div2P {
+  color: #CDA45C;
+}
+
+.section4DivP:not(:has(#all:target, #starters-filter:target, #specialty-filter:target)) .section4Div2 a[href="#salads-filter"] .section4Div2P {
+  color: #CDA45C;
+}
+
+.section4DivP:not(:has(#all:target, #starters-filter:target, #salads-filter:target)) .section4Div2 a[href="#specialty-filter"] .section4Div2P {
+  color: #CDA45C;
 }
 
 .imgH3 {

@@ -285,7 +285,7 @@ nav
         .section4Div2P
             text-decoration: none
             color: white
-            transition: color 0.3s ease
+            
             
             
     
@@ -362,11 +362,19 @@ nav
 
 // Tu définies ce qui s'affiche en appuyant sur 1 des 4 choix et la derniere ligne dit que si t'appuies pas sur un d 3 ça se met en all par default
 #all:target ~ .section4Div2 a[href="#all"] .section4Div2P,
-#starters-filter:target ~ .section4Div2 a[href="#starters-filter"] .section4Div2P,
+#starters-filter:target ~ .section4Div2 a[href="#starters-filter"] .section4Div2P, 
 #salads-filter:target ~ .section4Div2 a[href="#salads-filter"] .section4Div2P,
 #specialty-filter:target ~ .section4Div2 a[href="#specialty-filter"] .section4Div2P,
 .section4DivP:not(:has(#starters-filter:target, #salads-filter:target, #specialty-filter:target)) .section4Div2 a[href="#all"] .section4Div2P
-    
+    color: $yellow
+.section4DivP:not(:has(#all:target, #salads-filter:target, #specialty-filter:target)) .section4Div2 a[href="#starters-filter"] .section4Div2P
+    color: $yellow
+.section4DivP:not(:has(#all:target, #starters-filter:target, #specialty-filter:target)) .section4Div2 a[href="#salads-filter"] .section4Div2P
+    color: $yellow
+.section4DivP:not(:has(#all:target, #starters-filter:target, #salads-filter:target)) .section4Div2 a[href="#specialty-filter"] .section4Div2P
+    color: $yellow
+
+// Les 4 dernieres permettent de dire que si il est sur ce href il doit le mettre en $yellow (ma variable)
 
 
 
