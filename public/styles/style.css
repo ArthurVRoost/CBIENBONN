@@ -50,6 +50,15 @@ nav .navbar-brand {
   z-index: 1;
   margin-left: 50px;
 }
+.headerDivP .headerBtn {
+  border-radius: 25px;
+  font-size: 14px;
+}
+.headerDivP .headerBtn2 {
+  border-radius: 25px;
+  margin-left: 1vw;
+  font-size: 14px;
+}
 .headerDivP .headerDiv2 {
   z-index: 1;
   position: relative;
@@ -81,33 +90,53 @@ nav .navbar-brand {
 .headerDivP .headerDiv1H3 {
   font-weight: 100;
 }
-.headerDivP .headerDiv2 {
+.headerDivP #headerDiv2Btn {
+  padding-top: 5%;
   margin-left: 30vw;
-  font-size: 40px;
+  transition: 1s ease;
 }
-.headerDivP .headerBtn {
-  border-radius: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.headerDivP .headerBtn2 {
-  border-radius: 25px;
-  margin-left: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.headerDivP .HeaderBtn3 {
-  background: #CDA45C;
+.headerDivP #headerDiv2Btn .fa-solid {
+  margin-top: 10%;
+  color: white;
+  position: relative;
+  background-color: rgb(204, 163, 94);
   border-radius: 50%;
-  z-index: 1;
-  position: relative;
+  padding: 35px;
+  font-size: 30px;
+  box-shadow: 0px 0px 0px 10px rgba(204, 164, 94, 0.336);
 }
-.headerDivP .fa-play {
-  z-index: 1;
-  position: relative;
+.headerDivP #video-toggle {
+  display: none;
 }
-.headerDivP .modal {
-  z-index: 1;
+
+#videoPopup {
+  padding: 0;
+  border: solid 3px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 60vw;
+  background-color: none;
+  z-index: 100;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.fa-play {
+  cursor: pointer;
 }
 
 .imgH2 {

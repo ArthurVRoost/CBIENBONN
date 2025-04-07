@@ -55,45 +55,28 @@
                         <h1 class="headerDiv1H1">Welcome to <span class="navText">CBIENBON</span></h1>
                         <h3 class="headerDiv1H3">Delivering great food for more than 18 years!</h3>
                         <div>
-                            <button class=" navBtn btn btn-outline-warning text-white headerBtn" type="submit">OUR MENU</button>
-                            <button class=" navBtn btn btn-outline-warning text-white headerBtn2" type="submit">BOOK A TABLE</button>
+                            <button class=" navBtn btn btn-outline-warning text-white headerBtn pe-4 ps-4" type="submit">OUR MENU</button>
+                            <button class=" navBtn btn btn-outline-warning text-white headerBtn2 pe-4 ps-4" type="submit">BOOK A TABLE</button>
                         </div>
                     </div>
                     <div class="headerDiv2">
                         
-                        <!-- <button type="button" class="btn btn-warning HeaderBtn3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-play text-white fs-3 p-4 d-flex align-items-center"></i>
-                          </button>
-                          
-                         
-                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Food Wars Opening</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-dark">
-                                    <div class="ratio ratio-16x9">
-                                      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                                              title="YouTube video" allowfullscreen allow="autoplay"></iframe>
-                                    </div>
-                                  </div>
-                                
-                              </div>
-                            </div>
-                          </div> -->
+                        
 
-                          <input type="checkbox" id="toggle-video">
-                          <label for="toggle-video" class="video-button"><i class="fa-solid fa-play text-white fs-3 p-4 d-flex align-items-center"></i></label>
-                        
-                        
-                          <iframe class="youtube-video" 
-                            src="https://www.youtube.com/watch?v=vV3l_1j8pPE&ab_channel=CrunchyrollDeutschland" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                          </iframe>
+                         <div id="headerDiv2Btn">
+                            <input type="checkbox" id="video-toggle">
+                                <label for="video-toggle" onclick="document.getElementById('videoPopup').showModal()">
+                                <i class="fa-solid fa-play"></i>
+                            </label>
+                        </div>
+                        <dialog id="videoPopup">
+                            <form method="dialog">
+                                <button class="close-button" aria-label="Fermer"> 
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </form>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vV3l_1j8pPE?si=mmMIFWzdAggOaFWv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </dialog>
                           
                     </div>
 
