@@ -446,6 +446,50 @@
     flex-direction: row !important;
     display: flex !important;
   }
+  .section9Div3 {
+    flex-direction: column;
+  }
+  .section9Div3 .section9Div4 {
+    width: 500px;
+    align-items: center;
+  }
+  .section9Div3 .section9Div4 .divContact {
+    margin-left: 5%;
+  }
+  .section9Div3 .contact-form {
+    width: 80%;
+  }
+  .section9Div3 .contact-form .form-row {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section9Div3 .contact-form .form-button {
+    margin-right: 0vw !important;
+  }
+  footer {
+    height: 600px !important;
+  }
+  footer .section10Div1 {
+    position: absolute !important;
+    left: 5% !important;
+    top: 1180% !important;
+  }
+  footer .section10Div2 {
+    position: absolute !important;
+    left: 50% !important;
+    top: 1180% !important;
+  }
+  footer .section10Div3 {
+    position: absolute !important;
+    left: 5% !important;
+    top: 1220% !important;
+  }
+  footer .section10Div4 {
+    position: absolute !important;
+    left: 50% !important;
+    top: 1220% !important;
+  }
 }
 body {
   overflow-x: hidden;
