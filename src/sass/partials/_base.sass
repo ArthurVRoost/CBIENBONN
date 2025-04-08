@@ -161,6 +161,10 @@
         position: absolute !important
         right: 0% !important
         top: 90% !important
+    
+    .row
+        display: flex
+        flex-direction: column
         
     .section7Div2
         flex-direction: column !important
@@ -173,8 +177,27 @@
     .section8Div2
         flex-direction: column !important
         margin-left: 5vw !important
-        
-            
+
+    .section9Div3
+        flex-direction: column
+        .section9Div4
+            width: 500px
+            align-items: center
+            .divContact
+                margin-left: 5%
+        .contact-form
+            width: 80%
+            .form-row
+                width: 100px
+                display: flex
+                flex-direction: column
+            .form-button
+                margin-right: 60vw
+    
+    .section10DivP
+        flex-direction: column
+        gap: 30px
+
     
 
 body
@@ -810,7 +833,7 @@ nav
                 .contact
                     color: white
                     border-radius: 50%
-                    padding: 7px
+                    padding: 10px
                     background-color: $yellow
                 .divContact
                     color: white
