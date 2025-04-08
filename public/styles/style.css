@@ -193,6 +193,19 @@
     right: 0% !important;
     top: 90% !important;
   }
+  .section7Div2 {
+    flex-direction: column !important;
+  }
+  .section7Div2 .section7Img1 {
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 3% !important;
+    margin-right: 5% !important;
+  }
+  .section8Div2 {
+    flex-direction: column !important;
+    margin-left: 5vw !important;
+  }
 }
 body {
   overflow-x: hidden;
