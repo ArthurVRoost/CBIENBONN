@@ -174,8 +174,8 @@ nav .navbar-brand {
   font-size: 25px;
 }
 .section2DivP .section2Div1 .section2Div1P {
-  font-size: 10px;
-  font-size: italic;
+  font-size: 13px;
+  font-style: italic;
 }
 .section2DivP .section2Div1 .section2Div1D {
   display: flex;
