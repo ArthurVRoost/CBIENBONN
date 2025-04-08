@@ -759,15 +759,10 @@ nav .navbar-brand {
   font-weight: 100;
 }
 
-.hrF {
-  margin: 0;
-  padding: 0;
-  color: rgba(49, 48, 48, 0.192);
-  height: 1px;
-}
-
 footer {
   background-color: #0D0B09;
+  border-top: 1px solid rgb(65, 65, 65);
+  border-bottom: 1px solid rgb(65, 65, 65);
 }
 footer .section10DivP {
   display: flex;
@@ -777,6 +772,7 @@ footer .section10DivP {
   color: white;
   padding-top: 5vh;
   padding-bottom: 5vh;
+  border-top: 1px solid rgb(65, 65, 65);
 }
 footer .section10DivP .section10Div1H4 {
   font-size: 23px;
@@ -856,11 +852,6 @@ footer .section10DivP .subscription-form button:hover {
 footer .section10DivP .spanF {
   color: #CDA45C;
   padding-left: 1vw;
-}
-
-.hrCP {
-  margin: 0;
-  padding: 0;
 }
 
 .section11 {
