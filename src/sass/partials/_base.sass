@@ -199,6 +199,170 @@
         gap: 30px
 
     
+@media (min-width:576px) and (max-width: 1090px)
+    body
+        overflow-x: hidden
+    .headerDivP
+        flex-direction: column
+        
+        justify-content: center
+        .headerDiv1H1
+            margin-left: 10vw
+        .btnNavigation
+            padding-top: 3vh
+            .headerBtn
+                margin-left: 12vw
+        .video-button
+            margin-left: 0
+        .headerDiv2
+            display: flex
+            text-align: center
+            align-items: center
+            margin-right: 30%
+            margin-top: 5%
+    .imgH2
+        background-image: url("../assets/img/about-bg.jpg")
+        @include section2
+        background-attachment: fixed
+        background-repeat: no-repeat
+        height: 800px !important
+    
+        &::before
+            content: ''
+            position: absolute
+            top: 100vh
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: rgba(0, 0, 0, 0.313)
+            z-index: 0
+    .section2DivP
+        z-index: 1
+        position: relative
+        flex-direction: column
+        height: 100%
+        .section2Div1
+            color: white
+            margin-left: 3%
+            .section2Div1H3
+                font-size: 8px
+                width: 100%
+            .section2Div1P
+                font-size: 5px
+                font-style: italic
+            .section2Div1D1P
+                font-size: 13px
+            .section2Div1D2P
+                font-size: 13px
+            .section2Div1D3P
+                font-size: 13px
+            .section2Div1D
+                display: flex
+                align-items: center
+                gap: 5px
+                .fa-check
+                    color: $yellow
+                    border: 1px solid $yellow
+                    border-radius: 100%
+                    padding: 4px
+                    font-size: 10px
+            .section2Div3P
+                font-size: 10px
+        
+       
+        .section2Div2
+            margin-left: 0
+            
+    
+            .section2Img
+                margin-left: 19vw !important
+                margin-top: 5vh !important
+                width: 500px !important
+                height: 430px !important
+            .section2Img:hover
+                transform: scale(1.02)
+            .droite::before
+                content: ""
+                color: $yellow
+                border: 2px solid $yellow
+                position: absolute 
+                left: 564px !important
+                width: 70px
+                top: 440px !important
+                
+            .droite::after
+                content: ""
+                color: $yellow
+                border: 2px solid $yellow
+                position: absolute 
+                left: 630px !important
+                height: 70px
+                top: 373px !important
+            .gauche::before
+                content: ""
+                color: $yellow
+                border: 2px solid $yellow
+                position: absolute 
+                left: 200px !important
+                width: 70px
+                top: 60px !important
+            .gauche::after
+                content: ""
+                color: $yellow
+                border: 2px solid $yellow
+                position: absolute 
+                left: 200px !important
+                height: 70px
+                top: 60px !important
+    .seciton3Div2
+        flex-direction: column
+    .section4Div3
+        flex-direction: column
+        .carte
+            font-size: 15px
+            .point
+                font-size: 12px
+            
+    .imgH3
+        background-image: url("../assets/img/events-bg.jpg")
+        @include section5
+        background-attachment: fixed
+        background-repeat: no-repeat
+        height: 1200px !important
+    
+        &::before
+            content: ''
+            position: absolute
+            top: 530vh !important
+            left: 0
+            width: 100%
+            height: 1200px !important 
+            background-color: rgba(0, 0, 0, 0.504)
+            z-index: 0
+    .carousel-inner
+        display: flex !important
+        flex-direction: column !important
+        height: 1000px !important
+        .section5Img
+            width: 400px
+            height: 400px
+        .section5Div2
+            position: absolute !important
+            left: 10% !important
+            top: 400px !important
+            height: 400px !important
+            .section5Div2H3
+                font-size: 15px !important
+                margin-top: 5vh
+            .section5Div2H32
+                font-size: 15px !important
+            .section5Div2PI
+                font-size: 13px
+    .carousel-indicators
+        position: absolute !important
+        right: 0% !important
+        top: 90% !important
+
 
 body
     overflow-x: hidden
